@@ -1,6 +1,6 @@
-let contador = 0;
+let contador = 0
 
-function onClick() {
-    contador += 1;
-    document.getElementById("contadorClicks").innerHTML = contador;
+const onClick = () => {
+    contador += 1
+    document.getElementById("contadorClicks").innerHTML = contador
 }
